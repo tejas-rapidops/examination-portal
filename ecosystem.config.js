@@ -1,33 +1,19 @@
 module.exports = {
   apps : [{
     name: 'API',
-    script: 'app.js',
-
-    // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
-    args: '',
-    instances: 1,
-    autorestart: true,
-    watch: false,
-    max_memory_restart: '1G',
-    env: {
-      NODE_ENV: 'development'
-    },
-    env_dev: {
-      NODE_ENV: 'dev'
-    },
-    env_production: {
-      NODE_ENV: 'production'
-    }
+    script: 'npm start'
   }],
   deploy : {
     dev : {
       user : 'examination-portal',
       host : '52.0.219.227',
       ref  : 'origin/development',
-      repo : 'git@github.com:tejas-rapidops/examination-portal.git',
+      repo : 'https://github.com/tejas-rapidops/examination-portal.git',
       path : '/home/examination-portal',
-      'pre-deploy-local':'npm run build',
-      'post-deploy' : 'pm2 deploy dev setup && pm2 startOrRestart ecosystem.config.js --env dev'
+      'post-deploy' : 'cd /home/examination-portal/current && npm install && pm2 start ecosystem.config.js --env dev',
+      env: {
+        NODE_ENV: 'dev',
+      },
     },
     production : {
       user : 'node',
