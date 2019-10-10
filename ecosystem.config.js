@@ -23,7 +23,7 @@ module.exports = {
     dev : {
       user : 'examination-portal',
       host : '52.0.219.227',
-      ref  : 'origin/master',
+      ref  : 'origin/development',
       repo : 'git@github.com:tejas-rapidops/examination-portal.git',
       path : '/home/examination-portal',
       'pre-deploy-local':'npm run build',
