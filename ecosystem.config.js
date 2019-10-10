@@ -25,9 +25,9 @@ module.exports = {
       host : '52.0.219.227',
       ref  : 'origin/development',
       repo : 'git@github.com:tejas-rapidops/examination-portal.git',
-      path : '/var/www/production',
+      path : '/home/examination',
       'pre-deploy-local':'npm run build',
-      'post-deploy' : 'pm2 kill && npm install && pm2 deploy production setup && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'pm2 deploy production setup && pm2 reload ecosystem.config.js --env production'
     },
     production : {
       user : 'node',
