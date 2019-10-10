@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tejas-rapidops/examination-portal/static/css/main.b100e6da.chunk.css",
+    "main.js": "/tejas-rapidops/examination-portal/static/js/main.0c69bb22.chunk.js",
+    "main.js.map": "/tejas-rapidops/examination-portal/static/js/main.0c69bb22.chunk.js.map",
+    "runtime-main.js": "/tejas-rapidops/examination-portal/static/js/runtime-main.eaec0947.js",
+    "runtime-main.js.map": "/tejas-rapidops/examination-portal/static/js/runtime-main.eaec0947.js.map",
+    "static/js/2.1c128480.chunk.js": "/tejas-rapidops/examination-portal/static/js/2.1c128480.chunk.js",
+    "static/js/2.1c128480.chunk.js.map": "/tejas-rapidops/examination-portal/static/js/2.1c128480.chunk.js.map",
+    "index.html": "/tejas-rapidops/examination-portal/index.html",
+    "precache-manifest.f4774c8f6a5bbab404b4cf9bc4342076.js": "/tejas-rapidops/examination-portal/precache-manifest.f4774c8f6a5bbab404b4cf9bc4342076.js",
+    "service-worker.js": "/tejas-rapidops/examination-portal/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/tejas-rapidops/examination-portal/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/tejas-rapidops/examination-portal/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaec0947.js",
+    "static/js/2.1c128480.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.0c69bb22.chunk.js"
+  ]
+}
